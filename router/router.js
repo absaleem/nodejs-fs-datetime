@@ -27,7 +27,7 @@ router.get("/create",async(req,res,next)=>{
         });
 
         const timestamp = date_ob.getTime();
-        var data = ""+timestamp+"";
+        var data = "Current Timestamp is: "+timestamp;
         ws.write(data, function() {
         // Now the data has been written.
         });
