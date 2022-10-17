@@ -38,7 +38,7 @@ router.get("/create",async(req,res,next)=>{
     }
 });
 
-router.get("/List",async(req,res,next)=>{
+router.get("/list",async(req,res,next)=>{
     try{
         const testFolder = './files/';
         let filenames=[]; 
